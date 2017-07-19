@@ -31,8 +31,8 @@
    [英雄联盟官网仿制](https://wang7211401.github.io/jirengu-12/lol/lol.html)
 
 ### popover组件
-    
-   使用 jQuery 制作popover组件
+   
+   使用 jQuery 制作popover组件
     
    [popover组件](https://wang7211401.github.io/jirengu-12/popover.html)
     
