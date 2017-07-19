@@ -8,33 +8,33 @@
 
 ### 火影忍者尾兽页面（最简单页面）
     
-   使用媒体查询、Flex 布局制作的响应式页面
+    使用媒体查询、Flex 布局制作的响应式页面
    
-   [火影忍者尾兽页面](https://wang7211401.github.io/jirengu-12/index.html)
+    [火影忍者尾兽页面](https://wang7211401.github.io/jirengu-12/index.html)
     
 ### 一个苹果风格的轮播组件（轮播）
 
-   使用 jQuery 制作的苹果风格轮播
+    使用 jQuery 制作的苹果风格轮播
    
-   [苹果风格轮播](https://wang7211401.github.io/jirengu-12/slider/slider.html)
+    [苹果风格轮播](https://wang7211401.github.io/jirengu-12/slider/slider.html)
     
 ### 一个手机画板（Canvas 画图）
     
-   使用原生 JS，借助 Canvas API 和动态 REM 方案（flexible.js）制作的手机画板
+    使用原生 JS，借助 Canvas API 和动态 REM 方案（flexible.js）制作的手机画板
    
-   [手机画板](https://wang7211401.github.io/jirengu-12/huatu.html)
+    [手机画板](https://wang7211401.github.io/jirengu-12/huatu.html)
     
 ### 英雄联盟官网仿制
 
-   使用 jQuery、Slides.js、自制的 Tab 组件，像素级精确还原英雄联盟官网
+    使用 jQuery、Slides.js、自制的 Tab 组件，像素级精确还原英雄联盟官网
     
-   [英雄联盟官网仿制](https://wang7211401.github.io/jirengu-12/lol/lol.html)
+    [英雄联盟官网仿制](https://wang7211401.github.io/jirengu-12/lol/lol.html)
 
 ### popover组件
    
-   使用 jQuery 制作popover组件
+    使用 jQuery 制作popover组件
     
-   [popover组件](https://wang7211401.github.io/jirengu-12/popover.html)
+    [popover组件](https://wang7211401.github.io/jirengu-12/popover.html)
     
 ## 我的技能
 
