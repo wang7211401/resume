@@ -32,7 +32,8 @@
 
 ### popover组件
     
-    使用原生 JS 制作popover组件
+    使用 jQuery 制作popover组件
+    
     [popover组件](https://wang7211401.github.io/jirengu-12/popover.html)
     
 ## 我的技能
