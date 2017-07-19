@@ -16,7 +16,7 @@
 
     使用 jQuery 制作的苹果风格轮播
     
-    [苹果风格的轮播](https://wang7211401.github.io/jirengu-12/slider/slider.html)
+    [苹果风格轮播](https://wang7211401.github.io/jirengu-12/slider/slider.html)
     
 ### 一个手机画板（Canvas 画图）
     
