@@ -40,7 +40,7 @@
    
    使用 jQuery 制作popover组件
     
-   [popover组件](https://wang7211401.github.io/jirengu-12/popover.html)
+   [popover组件](https://wang7211401.github.io/jirengu-12/popover/popover.html)
     
 ## 我的技能
 
@@ -76,7 +76,7 @@
    
 - 我的 Demos
 
-  - [自制 DOM 库](https://wang7211401.github.io/jirengu-12/test.js)
+  - [自制 DOM 库](https://github.com/wang7211401/jirengu-12/blob/master/DOM/DOM.js)
 
   - [会动的眼球](https://wang7211401.github.io/jirengu-12/eyes/eyes.html)
 
