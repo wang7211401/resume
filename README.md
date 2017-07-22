@@ -70,11 +70,11 @@
 
 ## 更多链接
 
-   + [我的博客](https://wang7211401.github.io/)
+  + [我的博客](https://wang7211401.github.io/)
    
-   + [我的 GitHub](https://github.com/wang7211401)
+  + [我的 GitHub](https://github.com/wang7211401)
    
-   + 我的 Demos
+  + 我的 Demos
 
       - [自制 DOM 库](https://wang7211401.github.io/jirengu-12/test.js)
 
