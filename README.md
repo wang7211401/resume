@@ -6,7 +6,7 @@
    
    手机：13xxxxxxxxx
    
-   邮箱：wang7211401@163.com
+   邮箱：wang7211401@gmail.com
    
    GitHub:github.com/wang7211401
    
