@@ -4,7 +4,7 @@
 
    前端工程师 | 西安 | 本科
    
-  手机：13xxxxxxxxx
+   手机：13xxxxxxxxx
    
    邮箱：wang7211401@163.com
    
