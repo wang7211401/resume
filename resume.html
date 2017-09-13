@@ -6,64 +6,86 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <ul class="slideshow">
+        <li>
+            <span>Image 01</span>
+        </li>
+        <li>
+            <span>Image 02</span>
+        </li>
+        <li>
+            <span>Image 03</span>
+        </li>
+        <li>
+            <span>Image 04</span>
+        </li>
+        <li>
+            <span>Image 05</span>
+        </li>
+        <li>
+            <span>Image 06</span>
+        </li>
+    </ul>
     <div class="container-wrapper">
-        <div class="container">
-            <div class="container-left">
-                <img src="img/photo.jpg" alt="">
-                <div class="contact">
-                    <p>手机</p>
-                    <p>13xxxxxxxxx</p>
-                    <p>邮箱</p>
-                    <p>wang7211401@gmail.com</p>
-                </div>
-                <div class="books">
-                    <a href="https://github.com/wang7211401" title="GitHub">
+        <nav class="tabs">
+            <ul>
+                <li class="active">
+                    <a class="tabs-icon" title="个人信息">
                         <svg class="icon">
-                            <use xlink:href="#icon-github"></use>
+                            <use xlink:href="#icon-lianjie"></use>
                         </svg>
                     </a>
-                    <a href="https://wang7211401.github.io/" title="我的博客">
+                </li>
+                <li>
+                    <a class="tabs-icon" title="项目经历">
                         <svg class="icon">
-                            <use xlink:href="#icon-boke"></use>
+                            <use xlink:href="#icon-xiangmu"></use>
                         </svg>
                     </a>
-                </div>
-            </div>
-            <div class="container-right">
-                <nav class="tabs">
-                    <ul>
-                        <li class="active">
-                            <svg class="icon">
-                                <use xlink:href="#icon-lianjie"></use>
-                            </svg>
-                            个人信息
-                        </li>
-                        <li>
-                            <svg class="icon">
-                                <use xlink:href="#icon-xiangmu"></use>
-                            </svg>
-                            项目经历
-                        </li>
-                        <li>
-                            <svg class="icon">
-                                <use xlink:href="#icon-jineng"></use>
-                            </svg>
-                            技能水平
-                        </li>
-
-                        <li>
-                            <svg class="icon">
-                                <use xlink:href="#icon-ziwomiaoshu"></use>
-                            </svg>
-                            自我描述
-                        </li>
-                    </ul>
-                </nav>
-                <div class="tab-content">
-                    <section class="profile active">
-                        <div class="profile-content">
-                            <h1>王相杰</h1>
-                            <p>
+                </li>
+                <li>
+                    <a class="tabs-icon" title="个人技能">
+                        <svg class="icon">
+                            <use xlink:href="#icon-jineng"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a class="tabs-icon" title="自我描述">
+                        <svg class="icon">
+                            <use xlink:href="#icon-ziwomiaoshu"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="tabs-contact">
+                    <a class="tabs-icon" title="联系地址">
+                        <svg class="icon">
+                            <use xlink:href="#icon-ziwomiaoshu"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <div class="tabs-icon">
+                        <svg class="icon">
+                            <use xlink:href="#icon-ziwomiaoshu"></use>
+                        </svg>
+                    </div>
+                </li>
+                <li>
+                    <div class="tabs-icon">
+                        <svg class="icon">
+                            <use xlink:href="#icon-ziwomiaoshu"></use>
+                        </svg>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <div class="container-content">
+            <div class="tab-content">
+                <section class="profile active">
+                    <div class="profile-content">
+                        <h1>王相杰</h1>
+                        <p>
                             <span class="jobTitle">
                                 <svg class="icon">
                                     <use xlink:href="#icon-qianduankaifa"></use>
@@ -76,89 +98,129 @@
                                 </svg>
                                 西安
                             </span>
-                            </p>
-                        </div>
-                    </section>
-                    <section class="projects">
-                        <ol>
-                            <li>
-                                <a class="image-wrapper" href="https://wang7211401.github.io/jirengu-12/simplepage/index.html">
-                                    <img src="img/1.jpg" alt="">
-                                    <p>使用媒体查询、Flex 布局制作的响应式页面。</p>
-                                </a>
-                                <h2>火影忍者尾兽页面（最简单页面）</h2>
-                            </li>
-                            <li>
-                                <a class="image-wrapper" href="https://wang7211401.github.io/jirengu-12/slider/slider.html">
-                                    <img src="img/2.png" alt="">
-                                    <p>使用 jQuery 制作的苹果风格轮播</p>
-                                </a>
-                                <h2>一个苹果风格的轮播组件（轮播）</h2>
-                            </li>
-                            <li>
-                                <a class="image-wrapper" href="https://wang7211401.github.io/jirengu-12/huatu.html">
-                                    <img src="img/3.png" alt="">
-                                    <p>使用原生 JS，借助 Canvas API 和动态 REM 方案（flexible.js）制作的手机画板</p>
-                                </a>
-                                <h2>一个手机画板（Canvas 画图）</h2>
-                            </li>
-                            <li>
-                                <a class="image-wrapper" href="https://wang7211401.github.io/jirengu-12/lol/lol.html">
-                                    <img src="img/4.png" alt="">
-                                    <p>使用 jQuery、Slides.js、自制的 Tab 组件，像素级精确还原英雄联盟官网。</p>
-                                </a>
-                                <h2>英雄联盟官网仿制</h2>
-                            </li>
-                        </ol>
-                    </section>
-                    <section class="skills">
-                        <ul class="skills-content">
-                            <li>
-                                <h3>静态页面制作技术</h3>
-                                <ul>
-                                    <li>像素级还原设计稿，可以实现响应式以适应手机屏幕。</li>
-                                    <li>CSS 3 动画、Flex 布局、CSS</li>
-                                </ul>
-                            </li>
-                            <li>
-                                <h3>移动端页面</h3>
-                                <ul>
-                                    <li>使用动态 REM 适配所有手机屏幕</li>
-                                    <li>手机端页面调试</li>
-                                </ul>
-                            </li>
-                            <li>
-                                <h3>熟练使用 jQuery</h3>
-                                <ul>
-                                    <li>了解 jQuery 常见 API</li>
-                                    <li>编写 jQuery 插件</li>
-                                </ul>
-                            </li>
-                            <li>
-                                <h3>与后端配合开发</h3>
-                                <ul>
-                                    <li>
-                                        了解 HTTP 协议，知道 HTTP 请求、响应的定义
-                                    </li>
-                                    <li>AJAX（待教）</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </section>
-                    <section class="introduction">
-                        <h2>自我描述</h2>
-                        <ul>
-                            <li>对技术具有无限的热情，喜欢探究技术背后的深层原理。</li>
-                            <li>热爱生活，喜欢每天都富有激情的工作状态。</li>
-                            <li>工作中一丝不苟并追求完美、不怕吃苦。</li>
-                            <li>喜欢与同事打成一片，坚信团队的力量！</li>
-                        </ul>
-                    </section>
-                </div>
+                        </p>
+                    </div>
+                </section>
+                <section class="projects">
+                    <ol>
+                        <li>
+                            <a class="image-wrapper" href="https://wang7211401.github.io/jirengu-12/simplepage/index.html">
+                                <img src="img/1.jpg" alt="">
+                                <p>使用媒体查询、Flex 布局制作的响应式页面。</p>
+                            </a>
+                            <h2>火影忍者尾兽页面（最简单页面）</h2>
+                        </li>
+                        <li>
+                            <a class="image-wrapper" href="https://wang7211401.github.io/jirengu-12/slider/slider.html">
+                                <img src="img/2.png" alt="">
+                                <p>使用 jQuery 制作的苹果风格轮播</p>
+                            </a>
+                            <h2>一个苹果风格的轮播组件（轮播）</h2>
+                        </li>
+                        <li>
+                            <a class="image-wrapper" href="https://wang7211401.github.io/jirengu-12/huatu.html">
+                                <img src="img/3.png" alt="">
+                                <p>使用原生 JS，借助 Canvas API 和动态 REM 方案（flexible.js）制作的手机画板</p>
+                            </a>
+                            <h2>一个手机画板（Canvas 画图）</h2>
+                        </li>
+                        <li>
+                            <a class="image-wrapper" href="https://wang7211401.github.io/jirengu-12/lol/lol.html">
+                                <img src="img/4.png" alt="">
+                                <p>使用 jQuery、Slides.js、自制的 Tab 组件，像素级精确还原英雄联盟官网。</p>
+                            </a>
+                            <h2>英雄联盟官网仿制</h2>
+                        </li>
+                    </ol>
+                </section>
+                <section class="skills">
+                    <ul class="skills-content">
+                        <li>
+                            <h3>静态页面制作技术</h3>
+                            <ul>
+                                <li>像素级还原设计稿，可以实现响应式以适应手机屏幕。</li>
+                                <li>CSS 3 动画、Flex 布局、CSS</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h3>移动端页面</h3>
+                            <ul>
+                                <li>使用动态 REM 适配所有手机屏幕</li>
+                                <li>手机端页面调试</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h3>熟练使用 jQuery</h3>
+                            <ul>
+                                <li>熟悉 jQuery 常见 API</li>
+                                <li>编写 jQuery 插件</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h3>与后端配合开发</h3>
+                            <ul>
+                                <li>
+                                    熟悉 HTTP 协议，知道 HTTP 请求、响应的定义
+                                </li>
+                                <li>熟悉 AJAX、Promise、JSON、跨域</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+                <section class="introduction">
+                    <h2>自我描述</h2>
+                    <ul>
+                        <li>对技术具有无限的热情，喜欢探究技术背后的深层原理。</li>
+                        <li>热爱生活，喜欢每天都富有激情的工作状态。</li>
+                        <li>工作中一丝不苟并追求完美、不怕吃苦。</li>
+                        <li>喜欢与同事打成一片，坚信团队的力量！</li>
+                    </ul>
+                </section>
             </div>
         </div>
+        <div class="container-Information">
+            <div class="container-img">
+                <img src="https://i.loli.net/2017/09/13/59b8fccb47508.jpg" alt="">
+            </div>
+            <div class="Information-content">
+                <h3>王相杰</h3>
+                <p>
+                    <span class="Information-jobTitle">
+                        <svg class="icon">
+                            <use xlink:href="#icon-qianduankaifa"></use>
+                        </svg>
+                        前端工程师
+                    </span>
+                    <span class="Information-city">
+                        <svg class="icon icon-location">
+                            <use xlink:href="#icon-didian"></use>
+                        </svg>
+                        西安
+                    </span>
+                </p>
+            </div>
+            <div class="Information-skilled">
+                <p>
+                    主攻前端开发，擅长各种平面软件，1年前端开发经验，熟悉 HTML、CSS、Javascript，能熟练开发符合 W3C 标准的页面，熟练使用jQuery，有Vue,React开发经验，有良好的编码习惯以及熟练使用开发调试工具。
+                </p>
+            </div>
+            <div class="books">
+                <h3>社交信息</h3>
+                <a href="https://github.com/wang7211401" title="GitHub">
+                    <svg class="icon">
+                        <use xlink:href="#icon-github"></use>
+                    </svg>
+                </a>
+                <a href="https://wang7211401.github.io/" title="我的博客">
+                    <svg class="icon">
+                        <use xlink:href="#icon-jineng"></use>
+                    </svg>
+                </a>
+            </div>
+        </div>
+
     </div>
-    <script src="//at.alicdn.com/t/font_mxigt9gwl3zkhuxr.js"></script>
+    <script src="//at.alicdn.com/t/font_362078_h1wfedtc05zpk3xr.js"></script>
     <script src="//apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
     <script>
         console.log($('.tabs'));
