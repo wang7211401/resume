@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hans">
 <head>
     <meta charset="UTF-8" />
     <title>个人简历</title>
@@ -32,7 +32,7 @@
                 <li class="active">
                     <a class="tabs-icon" title="个人信息">
                         <svg class="icon">
-                            <use xlink:href="#icon-lianjie"></use>
+                            <use xlink:href="#icon-yonghu"></use>
                         </svg>
                     </a>
                 </li>
@@ -44,23 +44,23 @@
                     </a>
                 </li>
                 <li>
+                    <a class="tabs-icon" title="demo">
+                        <svg class="icon">
+                            <use xlink:href="#icon-demo"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li>
                     <a class="tabs-icon" title="个人技能">
                         <svg class="icon">
                             <use xlink:href="#icon-jineng"></use>
                         </svg>
                     </a>
                 </li>
-                <li>
-                    <a class="tabs-icon" title="自我描述">
-                        <svg class="icon">
-                            <use xlink:href="#icon-ziwomiaoshu"></use>
-                        </svg>
-                    </a>
-                </li>
                 <li class="tabs-contact">
-                    <a class="tabs-icon" title="联系地址">
+                    <a class="tabs-icon" title="联系方式">
                         <svg class="icon">
-                            <use xlink:href="#icon-ziwomiaoshu"></use>
+                            <use xlink:href="#icon-lianxifangshi"></use>
                         </svg>
                     </a>
                 </li>
@@ -83,55 +83,96 @@
         <div class="container-content">
             <div class="tab-content">
                 <section class="profile active">
-                    <div class="profile-content">
-                        <h1>王相杰</h1>
-                        <p>
-                            <span class="jobTitle">
-                                <svg class="icon">
-                                    <use xlink:href="#icon-qianduankaifa"></use>
-                                </svg>
-                                前端工程师
-                            </span>
-                                <span class="city">
-                                <svg class="icon icon-location">
-                                    <use xlink:href="#icon-didian"></use>
-                                </svg>
-                                西安
-                            </span>
-                        </p>
+                    <h1>个人信息</h1>
+                    <div class="row">
+                        <div class="profile-l">
+                            <div class="title_content">
+                                <h2 class="text_content">王相杰</h2>
+                            </div>
+                            <ul class="about">
+                                <li>
+                                    <svg class="icon">
+                                        <use xlink:href="#icon-yonghu"></use>
+                                    </svg>
+                                    <label>姓名</label>
+                                    <span class="value">王相杰</span>
+                                </li>
+                                <li>
+                                    <svg class="icon">
+                                        <use xlink:href="#icon-didian"></use>
+                                    </svg>
+                                    <label>地址</label>
+                                    <span class="value">陕西，西安</span>
+                                </li>
+                                <li>
+                                    <svg class="icon">
+                                        <use xlink:href="#icon-youxiang"></use>
+                                    </svg>
+                                    <label>邮箱</label>
+                                    <span class="value">wang7211401@163.com</span>
+                                </li>
+                                <li>
+                                    <svg class="icon">
+                                        <use xlink:href="#icon-shouji"></use>
+                                    </svg>
+                                    <label>电话</label>
+                                    <span class="value">13429722442</span>
+                                </li>
+                            </ul>
+                            <h3>自我描述</h3>
+                            <p>
+                                对技术具有无限的热情，喜欢探究技术背后的深层原理。 热爱生活，喜欢每天都富有激情的工作状态。 工作中一丝不苟并追求完美、不怕吃苦。 喜欢与同事打成一片，坚信团队的力量！
+                            </p>
+                        </div>
+                        <div class="profile-r">
+                            <div class="cycle-slideshow">
+                                <img src="https://i.loli.net/2017/09/14/59ba46472c552.jpg" alt="" class="cycle-slide active">
+                                <img src="https://i.loli.net/2017/09/14/59ba46590e3b6.png" alt="" class="cycle-slide">
+                                <img src="https://i.loli.net/2017/09/14/59ba46699e6c7.png" alt="" class="cycle-slide">
+                            </div>
+                        </div>
                     </div>
                 </section>
                 <section class="projects">
                     <ol>
                         <li>
-                            <a class="image-wrapper" href="https://wang7211401.github.io/jirengu-12/simplepage/index.html">
+                            <a class="image-wrapper" href="https://wang7211401.github.io/jirengu-12/simplepage/index.html" target="_blank">
                                 <img src="img/1.jpg" alt="">
                                 <p>使用媒体查询、Flex 布局制作的响应式页面。</p>
                             </a>
                             <h2>火影忍者尾兽页面（最简单页面）</h2>
                         </li>
                         <li>
-                            <a class="image-wrapper" href="https://wang7211401.github.io/jirengu-12/slider/slider.html">
+                            <a class="image-wrapper" href="https://wang7211401.github.io/jirengu-12/slider/slider.html" target="_blank">
                                 <img src="img/2.png" alt="">
                                 <p>使用 jQuery 制作的苹果风格轮播</p>
                             </a>
                             <h2>一个苹果风格的轮播组件（轮播）</h2>
                         </li>
                         <li>
-                            <a class="image-wrapper" href="https://wang7211401.github.io/jirengu-12/huatu.html">
+                            <a class="image-wrapper" href="https://wang7211401.github.io/jirengu-12/huatu.html" target="_blank">
                                 <img src="img/3.png" alt="">
                                 <p>使用原生 JS，借助 Canvas API 和动态 REM 方案（flexible.js）制作的手机画板</p>
                             </a>
                             <h2>一个手机画板（Canvas 画图）</h2>
                         </li>
                         <li>
-                            <a class="image-wrapper" href="https://wang7211401.github.io/jirengu-12/lol/lol.html">
+                            <a class="image-wrapper" href="https://wang7211401.github.io/jirengu-12/lol/lol.html" target="_blank">
                                 <img src="img/4.png" alt="">
                                 <p>使用 jQuery、Slides.js、自制的 Tab 组件，像素级精确还原英雄联盟官网。</p>
                             </a>
                             <h2>英雄联盟官网仿制</h2>
                         </li>
                     </ol>
+                </section>
+                <section class="introduction">
+                    <h2>自我描述</h2>
+                    <ul>
+                        <li>对技术具有无限的热情，喜欢探究技术背后的深层原理。</li>
+                        <li>热爱生活，喜欢每天都富有激情的工作状态。</li>
+                        <li>工作中一丝不苟并追求完美、不怕吃苦。</li>
+                        <li>喜欢与同事打成一片，坚信团队的力量！</li>
+                    </ul>
                 </section>
                 <section class="skills">
                     <ul class="skills-content">
@@ -167,15 +208,6 @@
                         </li>
                     </ul>
                 </section>
-                <section class="introduction">
-                    <h2>自我描述</h2>
-                    <ul>
-                        <li>对技术具有无限的热情，喜欢探究技术背后的深层原理。</li>
-                        <li>热爱生活，喜欢每天都富有激情的工作状态。</li>
-                        <li>工作中一丝不苟并追求完美、不怕吃苦。</li>
-                        <li>喜欢与同事打成一片，坚信团队的力量！</li>
-                    </ul>
-                </section>
             </div>
         </div>
         <div class="container-Information">
@@ -206,31 +238,42 @@
             </div>
             <div class="books">
                 <h3>社交信息</h3>
-                <a href="https://github.com/wang7211401" title="GitHub">
+                <a href="https://github.com/wang7211401" title="GitHub" target="_blank">
                     <svg class="icon">
                         <use xlink:href="#icon-github"></use>
                     </svg>
                 </a>
-                <a href="https://wang7211401.github.io/" title="我的博客">
+                <a href="https://wang7211401.github.io/" title="我的博客" target="_blank">
                     <svg class="icon">
-                        <use xlink:href="#icon-jineng"></use>
+                        <use xlink:href="#icon-bokefenxiang"></use>
+                    </svg>
+                </a>
+                <a href="http://www.jianshu.com/u/1c74152ad31a" title="简书" target="_blank">
+                    <svg class="icon">
+                        <use xlink:href="#icon-shu"></use>
                     </svg>
                 </a>
             </div>
         </div>
 
     </div>
-    <script src="//at.alicdn.com/t/font_362078_h1wfedtc05zpk3xr.js"></script>
+    <script src="//at.alicdn.com/t/font_362078_pnepit7upiudi.js"></script>
     <script src="//apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
     <script>
-        console.log($('.tabs'));
         $('.tabs').on('click','li',function(e){
-            console.log(1);
             let $li = $(e.currentTarget);
             let index =$li.index();
             $li.addClass('active').siblings('.active').removeClass('active');
-            $('.tab-content > section').eq(index).addClass('active').siblings('.active').removeClass('active')
-        })
+            $('.tab-content > section').eq(index).addClass('active bounceIn').siblings('.active').removeClass('active bounceIn')
+        });
+        setInterval(function() {
+            var index = $('.cycle-slide.active').index();
+            index = index + 1;
+            if (index === 3) {
+                index = 0
+            }
+            $('.cycle-slide').eq(index).addClass('active').siblings().removeClass('active')
+        },3000)
     </script>
 </body>
 

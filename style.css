@@ -138,6 +138,27 @@ body{
     height: 22px;
     fill:#43B6B1;
 }
+.bounceIn {
+    animation-name: bounceIn;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+@keyframes bounceIn{
+    0% {
+        opacity: 0;
+        transform: scale(.3);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.05);
+    }
+    70% {
+        transform: scale(.9);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
 .container-content{
     background: #F4F4F4;
     width:745px;
@@ -146,23 +167,99 @@ body{
 }
 .tab-content{
     height: 100%;
+    overflow: hidden;
 }
 .tab-content > section{
     display:none;
+    height: 100%;
+    overflow: hidden;
 }
 .tab-content > section.active{
     display:block;
 }
-.tab-content .profile .profile-content{
-    text-align:center;
-    margin-top:95px;
+.profile{
+    padding:10px;
 }
-.tab-content .profile .profile-content p{
-    text-align: center;
+.profile h1{
+    margin-top: 10px;
+    margin-bottom:15px;
+    padding-bottom:10px;
+    padding-left:30px;
+    border-bottom:1px solid #e6e6e6;
+    font-size:26px;
+    color:#43B6B1;
+}
+.profile .row{
+    display: flex;
+}
+.profile-l{
+    padding-right:15px;
+    width:50%;
+}
+.profile-l .title_content{
+    width:100%;
+    border-bottom:1px solid #e6e6e6;
+}
+.profile-l .title_content .text_content{
+    display: inline-block;
+    margin-top:10px;
+    padding-bottom:10px;
+    color:#43B6B1;
+    border-bottom:1px solid #43B6B1;
+    font-size:20px;
+}
+.profile-l .about{
     margin-top:20px;
 }
+.profile-l .about li{
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.profile-l .about li .icon{
+    margin-top: -2px;
+    width:16px;
+    height:16px;
+    fill:#43B6B1;
+    vertical-align: middle;
+}
+.profile-l .about li label{
+    color:#43B6B1;
+    font-size:16px;
+}
+.profile-l .about li .value{
+    font-size:16px;
+    color:#717171;
+}
+.profile-l > h3{
+    margin-top:20px;
+    color:#43B6B1;
+    font-size:20px;
+}
+.profile-l >p{
+    margin-top:15px;
+    font-size:16px;
+    color:#717171;
+}
+.profile-r{
+    width:50%;
+}
+.profile-r .cycle-slideshow{
+    margin-top:20px;
+    position:relative;
+}
+.cycle-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    opacity: 1;
+    visibility: hidden;
+}
+.cycle-slide.active{
+    visibility: visible;
+}
 .projects{
-    margin-top:50px;
+    padding-top:50px;
 }
 .projects ol{
     display:flex;
@@ -212,7 +309,7 @@ body{
     margin-top:4px;
 }
 .skills{
-    margin-top:50px;
+    padding-top:50px;
 }
 .skills .skills-content{
     margin-left:30%;
@@ -253,8 +350,6 @@ body{
 .skills ul h3{
     font-size: 18px;
     line-height: 60px;
-}
-.introduction{
 }
 .introduction h2{
     margin-left:40%;
