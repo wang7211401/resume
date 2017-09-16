@@ -414,6 +414,8 @@
     $('.profile').prev('.tab-content-title').click(function(){
         if($('.profile').hasClass('active')){
             list = false
+        }else if($('.profile').siblings('section').hasClass('active') || !$('.profile').hasClass('active')){
+            list = true
         }
         if(list){
             $('.profile').addClass('active').siblings('section.active').removeClass('active');
@@ -427,6 +429,8 @@
     $('.projects').prev('.tab-content-title').click(function(){
         if($('.projects').hasClass('active')){
             list2 = false
+        }else if($('.projects').siblings('section').hasClass('active') || !$('.projects').hasClass('active')){
+            list2 = true
         }
         if(list2){
             $('.projects').addClass('active').siblings('section.active').removeClass('active');
@@ -440,6 +444,8 @@
     $('.demos').prev('.tab-content-title').click(function(){
         if($('.demos').hasClass('active')){
             list3 = false
+        }else if($('.demos').siblings('section').hasClass('active') || !$('.demos').hasClass('active')){
+            list3 = true
         }
         if(list3){
             $('.demos').addClass('active').siblings('section.active').removeClass('active');
@@ -453,6 +459,8 @@
     $('.skills').prev('.tab-content-title').click(function(){
         if($('.skills').hasClass('active')){
             list4 = false
+        }else if($('.skills').siblings('section').hasClass('active') || !$('.skills').hasClass('active')){
+            list4 = true
         }
         if(list4){
             $('.skills').addClass('active').siblings('section.active').removeClass('active');
@@ -466,6 +474,8 @@
     $('.address').prev('.tab-content-title').click(function(){
         if($('.address').hasClass('active')){
             list5 = false
+        }else if($('.address').siblings('section').hasClass('active') || !$('.address').hasClass('active')){
+            list5 = true
         }
         if(list5){
             $('.address').addClass('active').siblings('section.active').removeClass('active');
@@ -497,5 +507,4 @@
 
 </script>
 </body>
-
 </html>
