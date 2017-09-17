@@ -184,39 +184,74 @@
             </h2>
             <section class="projects">
                 <h1>项目经历</h1>
-                <ol>
-                    <li>
-                        <a class="image-wrapper" href="https://wang7211401.github.io/jirengu-12/simplepage/index.html"
-                           target="_blank">
-                            <img src="img/1.jpg" alt="">
-                            <p>使用媒体查询、Flex 布局制作的响应式页面。</p>
-                        </a>
-                        <h2>火影忍者页面（最简单页面）</h2>
-                    </li>
-                    <li>
-                        <a class="image-wrapper" href="http://shadowwang.top" target="_blank">
-                            <img src="https://ooo.0o0.ooo/2017/09/16/59bcd1b78195c.png" alt="">
-                            <p>使用JQuery、leancloud数据库实现搜索歌曲点击跳转播放页面，歌词滚动等效果。</p>
-                        </a>
-                        <h2>网易云音乐（手机端）</h2>
-                    </li>
-                    <li>
-                        <a class="image-wrapper" href="https://wang7211401.github.io/jirengu-12/huatu.html"
-                           target="_blank">
-                            <img src="img/3.png" alt="">
-                            <p>使用原生 JS，借助 Canvas API 和动态 REM 方案（flexible.js）制作的手机画板</p>
-                        </a>
-                        <h2>一个手机画板（Canvas 画图）</h2>
-                    </li>
-                    <li>
-                        <a class="image-wrapper" href="https://wang7211401.github.io/jirengu-12/lol/lol.html"
-                           target="_blank">
-                            <img src="https://ooo.0o0.ooo/2017/09/16/59bcd231a7ca7.png" alt="">
-                            <p>使用 jQuery、Slides.js、自制的 Tab 组件，像素级精确还原英雄联盟官网。</p>
-                        </a>
-                        <h2>英雄联盟官网仿制</h2>
-                    </li>
-                </ol>
+                <div class="item">
+                    <h3>网易云音乐(手机端)</h3>
+                    <div class="picture netEase">
+                        <a href="http://shadowwang.top/" target="_blank"><img src="img/music.jpg" alt=""></a>
+                    </div>
+                    <div class="describe">
+                        <p>
+                            手机端网易云音乐，具备播放、暂停、动态显示歌词的功能，
+                            使用leancloud作为数据库,实现搜索歌曲并点击跳转到相应的歌曲页面，
+                            通过函数限流处理请求重复发送。
+                            用gulp进行打包，以应对复杂场景进行性能优化。
+                        </p>
+                        <p>技术栈：jQuery + BOM + Leancloud + postcss + uglifyjs + gulp</p>
+                    </div>
+                    <div class="link clearfix">
+                        <a class="github" href="http://shadowwang.top/" target="_blank">在线查看</a>
+                        <a class="github" href="https://github.com/wang7211401/music" target="_blank">Github</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <h3>火影忍者页面（最简单的页面）</h3>
+                    <div class="picture netEase">
+                        <a href="https://wang7211401.github.io/jirengu-12/simplepage/index.html" target="_blank"><img src="img/1.jpg" alt=""></a>
+                    </div>
+                    <div class="describe">
+                        <p>
+                            使用原生JS实现懒加载、自动加载、预加载、自动轮播、tab切换，使用媒体查询、Flex 布局构建响应式页面
+                        </p>
+                        <p>技术栈：原生JS+ npm + ES6 + git + http-server</p>
+                    </div>
+                    <div class="link clearfix">
+                        <a class="github" href="https://wang7211401.github.io/jirengu-12/simplepage/index.html" target="_blank">在线查看</a>
+                        <a class="github" href="https://github.com/wang7211401/jirengu-12/tree/master/simplepage" target="_blank">Github</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <h3>手机画板（Canvas画图）</h3>
+                    <div class="picture netEase">
+                        <a href="https://wang7211401.github.io/jirengu-12/huatu.html" target="_blank"><img src="img/huaban.png" alt=""></a>
+                    </div>
+                    <div class="describe">
+                        <p>
+                            使用原生 JS，借助 Canvas API 和动态 REM 方案（flexible.js）以及svg iconfont制作的手机画板。
+                            包含橡皮擦、一键擦除、保存图片的功能。
+                        </p>
+                        <p>技术栈：原生JS + Canvas + 动态REM</p>
+                    </div>
+                    <div class="link clearfix">
+                        <a class="github" href="https://wang7211401.github.io/jirengu-12/huatu.html" target="_blank">在线查看</a>
+                        <a class="github" href="https://github.com/wang7211401/jirengu-12" target="_blank">Github</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <h3>英雄联盟仿站</h3>
+                    <div class="picture">
+                        <a href="https://wang7211401.github.io/jirengu-12/lol/lol.html" target="_blank"><img src="img/lol.jpg" alt=""></a>
+                    </div>
+                    <div class="describe">
+                        <p>
+                            使用 jQuery、Slides.js、自制的 Tab 组件，像素级精确还原英雄联盟官网。
+                        </p>
+                        <p>技术栈：jQuery + Slides.js + Tab 组件</p>
+                    </div>
+                    <div class="link clearfix">
+                        <a class="github" href="https://wang7211401.github.io/jirengu-12/lol/lol.html" target="_blank">在线查看</a>
+                        <a class="github" href="https://github.com/wang7211401/jirengu-12/tree/master/lol" target="_blank">Github</a>
+                    </div>
+                </div>
             </section>
             <h2 class="tab-content-title">
                 <div class="tabs-icon">
@@ -228,23 +263,34 @@
             </h2>
             <section class="demos">
                 <h1>其他小项目</h1>
-                <ul>
-                    <li>
-                        <a class="image-wrapper" href="https://wang7211401.github.io/jirengu-12/slider/slider.html"
-                           target="_blank">
-                            <img src="img/2.png" alt="">
-                            <p>使用 jQuery 制作的苹果风格轮播</p>
-                        </a>
-                        <h2>一个苹果风格的轮播组件（轮播）</h2>
-                    </li>
-                    <li>
-                        <a class="image-wrapper" href="https://wang7211401.github.io/clock/index.html" target="_blank">
-                            <img src="https://i.loli.net/2017/09/14/59ba7de083700.png" alt="">
-                            <p>使用原生JS、CSS3等技术制作的时钟</p>
-                        </a>
-                        <h2>时钟</h2>
-                    </li>
-                </ul>
+                <div class="item">
+                    <h3>一个苹果风格的轮播组件（轮播）</h3>
+                    <div class="picture">
+                        <a href="https://wang7211401.github.io/jirengu-12/slider/slider.html" target="_blank"><img src="img/lunbo.jpg" alt=""></a>
+                    </div>
+                    <div class="describe">
+                        <p>
+                            使用 jQuery 制作的苹果风格轮播
+                        </p>
+                    </div>
+                    <div class="link clearfix">
+                        <a class="github" href="https://wang7211401.github.io/jirengu-12/slider/slider.html" target="_blank">在线查看</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <h3>时钟</h3>
+                    <div class="picture">
+                        <a href="https://wang7211401.github.io/clock/index.html" target="_blank"><img src="img/clock.png" alt=""></a>
+                    </div>
+                    <div class="describe">
+                        <p>
+                            使用原生JS、CSS3等技术制作的时钟
+                        </p>
+                    </div>
+                    <div class="link clearfix">
+                        <a class="github" href="https://wang7211401.github.io/clock/index.html" target="_blank">在线查看</a>
+                    </div>
+                </div>
             </section>
             <h2 class="tab-content-title">
                 <div class="tabs-icon">
