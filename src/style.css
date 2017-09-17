@@ -485,7 +485,7 @@ body{
     height:40px;
     border-radius:50%;
     border:1px solid #AABCCF;
-    background:white url(img/css3.png) no-repeat 0 2px;
+    background:white url(../img/css3.png) no-repeat 0 2px;
     background-size:cover;
     z-index:1;
 }
