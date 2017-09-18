@@ -61,14 +61,14 @@
 <div class="container-wrapper">
     <nav class="tabs">
         <ul>
-            <li class="active">
+            <li>
                 <a class="tabs-icon" title="个人信息">
                     <svg class="icon">
                         <use xlink:href="#icon-yonghu"></use>
                     </svg>
                 </a>
             </li>
-            <li>
+            <li class="active">
                 <a class="tabs-icon" title="项目经历">
                     <svg class="icon">
                         <use xlink:href="#icon-xiangmu"></use>
@@ -122,7 +122,7 @@
                 </div>
                 <span class="title-list">个人信息</span>
             </h2>
-            <section class="profile active">
+            <section class="profile">
                 <h1>个人信息</h1>
                 <div class="row">
                     <div class="profile-l">
@@ -182,7 +182,7 @@
                 </div>
                 <span class="title-list">项目经历</span>
             </h2>
-            <section class="projects">
+            <section class="projects active">
                 <h1>项目经历</h1>
                 <div class="item">
                     <h3>网易云音乐(手机端)</h3>
@@ -443,7 +443,7 @@
             var myIcon = new BMap.Icon("http://lbsyun.baidu.com/jsdemo/img/fox.gif", new BMap.Size(200, 100));
             var marker2 = new BMap.Marker(r.point, {icon: myIcon});
             map.addOverlay(marker2);
-            alert('您的位置：' + r.point.lng + ',' + r.point.lat);
+//            alert('您的位置：' + r.point.lng + ',' + r.point.lat);
         }
         else {
             alert('failed' + this.getStatus());

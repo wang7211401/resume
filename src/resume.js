@@ -22,7 +22,7 @@ var list3 = true;
 var list4 = true;
 var list5 = true;
 if($('.tab-content>section').hasClass('active')){
-    list = false
+    list2 = false
 }
 $('.profile').prev('.tab-content-title').click(function(){
     if($('.profile').hasClass('active')){
