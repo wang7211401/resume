@@ -8,39 +8,45 @@
    
    邮箱：wang7211401@gmail.com
    
-   GitHub:github.com/wang7211401
+   GitHub:https://github.com/wang7211401
    
 ## 项目经历
 
-1.火影忍者尾兽页面（最简单页面）
-    
-   使用媒体查询、Flex 布局制作的响应式页面
-   
-   [火影忍者尾兽页面](https://wang7211401.github.io/jirengu-12/index.html)
-    
-2.一个苹果风格的轮播组件（轮播）
+  ### 网易云音乐（手机端）
 
-   使用 jQuery 制作的苹果风格轮播
-   
-   [苹果风格轮播](https://wang7211401.github.io/jirengu-12/slider/slider.html)
-    
-3.一个手机画板（Canvas 画图）
-    
-   使用原生 JS，借助 Canvas API 和动态 REM 方案（flexible.js）制作的手机画板
-   
-   [手机画板](https://wang7211401.github.io/jirengu-12/huatu.html)
-    
-4.英雄联盟官网仿制
+  **项目描述：** 手机端网易云音乐，具备播放、暂停、动态显示歌词的功能， 使用 leancloud 作为数据库,实现搜索歌曲并点击跳转到相应的歌曲页面， 通过函数限流处理请求重复发送。 用 gulp 进行打包，以应对复杂场景进行性能优化。 技术栈：jQuery + BOM + Leancloud + postcss + uglifyjs + gulp
 
-   使用 jQuery、Slides.js、自制的 Tab 组件，像素级精确还原英雄联盟官网
-    
-   [英雄联盟官网仿制](https://wang7211401.github.io/jirengu-12/lol/lol.html)
+  **项目链接：** [网易云音乐](https://wang7211401.github.io/music/index.html)
 
-5.popover组件
+  ### 火影忍者尾兽页面（最简单页面）
+    
+   **项目描述：** 使用原生 JS 实现懒加载、自动加载、预加载、自动轮播、tab 切换，使用媒体查询、Flex  布局构建响应式页面 技术栈：原生 JS+ npm + ES6 + git + http-server + gulp
+   
+   **项目链接：** [火影忍者尾兽页面](https://wang7211401.github.io/jirengu-12/index.html)
+    
+ ### 一个苹果风格的轮播组件（轮播）
+
+   **项目描述：** 使用 jQuery 制作的苹果风格轮播
+   
+   **项目链接：** [苹果风格轮播](https://wang7211401.github.io/jirengu-12/slider/slider.html)
+    
+ ### 一个手机画板（Canvas 画图）
+    
+   **项目描述：** 使用原生 JS ，借助 Canvas API  和动态 REM  方案（flexible.js ）以及 svg iconfont 制作的手机画板。 包含橡皮擦、一键擦除、保存图片的功能。 技术栈：原生 JS + Canvas + 动态REM
+   
+   **项目链接：** [手机画板](https://wang7211401.github.io/jirengu-12/huatu.html)
+    
+ ### 英雄联盟官网仿制
+
+   **项目描述：** 使用 jQuery、Slides.js、自制的 Tab 组件，像素级精确还原英雄联盟官网。 技术栈：jQuery + Slides.js + Tab 组件
+    
+   **项目链接：** [英雄联盟官网仿制](https://wang7211401.github.io/jirengu-12/lol/lol.html)
+
+ ### popover组件
    
-   使用 jQuery 制作popover组件
+   **项目描述：** 使用 jQuery 制作popover组件
     
-   [popover组件](https://wang7211401.github.io/jirengu-12/popover/popover.html)
+   **项目链接：** [popover组件](https://wang7211401.github.io/jirengu-12/popover/popover.html)
     
 ## 我的技能
 
